@@ -1,0 +1,19 @@
+{
+  "name": "JavaScript Bots Showcase",
+  "version": "0.1",
+  "description": "A variety of JavaScript Bots and Bookmarklets to demonstrate javascript console automation",
+  "background": {
+    "persistent": true,
+    "scripts": [
+                "js/background.js"
+              ]              
+  },
+  "web_accessible_resources": [
+    "js/*"
+  ],
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+    ],
+  "manifest_version": 2
+}
